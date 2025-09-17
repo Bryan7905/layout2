@@ -1,0 +1,123 @@
+.container {
+    margin-top: 10%;
+    background-color: rgb(185, 235, 185);
+    border: 5px solid green;
+    padding: 15px;
+}
+
+.header {
+    display: flex;
+    background-color: lightblue;
+    border: 5px solid blue;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.header-left{
+    flex: 1;
+    padding: 30px;
+    border:5px solid rgba(255, 116, 103);
+    background-color:rgba(255, 213, 179);
+}
+
+.header-center{
+    display: flex;
+    flex: 1;
+    padding: 5px;
+    border:5px solid rgba(255, 116, 103);
+    background-color:rgba(255, 213, 179);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-center-left{
+    flex: 1;
+    border:5px solid rgba(253, 6, 23);
+    background-color:rgba(255, 184, 196)
+}
+
+.header-center-right{
+    flex: 1;
+    border:5px solid rgba(253, 6, 23);
+    background-color:rgba(255, 184, 196)
+}
+
+.header-right{
+    flex: 1;
+    padding: 30px;
+    border:5px solid rgba(255, 116, 103);
+    background-color:rgba(255, 213, 179);
+}
+
+.main {
+    display: flex;
+}
+
+.left{
+    flex: 1;
+    width: 50%;
+}
+
+
+.full-column {
+    padding: 20px;
+    background-color:rgba(255, 179, 181);
+    border:5px solid rgba(165, 35, 43);
+    margin-bottom:20px;
+    margin-right:10px;
+    height: 240px;
+}
+
+.right{
+    flex: 1;
+    width: 50%;
+}
+
+
+.upper{
+    padding: 20px;
+    background-color:rgba(255, 179, 181);
+    border:5px solid rgba(165, 35, 43);
+    margin-bottom: 10px;
+    height: 115px;
+}
+
+.lower {
+    padding: 20px;
+    background-color:rgba(255, 179, 181);
+    border:5px solid rgba(165, 35, 43);
+    margin-bottom:20px;
+    height: 115px;
+}
+
+.footer{
+    flex:0 1;
+    background:lightblue;
+    border:5px solid blue;
+    display:flex;
+    gap:5px;
+    padding:10px;
+    height: 100px;
+}
+
+.footer-blue{
+    border:5px solid rgba(93, 79, 192);
+    background-color:rgba(223, 217, 253);
+}
+
+.footer-pink{
+    border:5px solid rgba(242, 121, 113);
+    background-color:rgba(255, 213, 179);
+}
+
+.footer-blue{
+    flex:2 1 0;
+    border:5px solid rgba(93, 79, 192);
+    background-color:rgba(223, 217, 253);
+}
+
+.footer-pink{
+    flex:1 1 0;
+    border:5px solid rgba(242, 121, 113);
+    background-color:rgba(255, 213, 179);
+}

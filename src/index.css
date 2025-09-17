@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  max-width: 750px;
+  margin: auto;
+}
